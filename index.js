@@ -12,7 +12,7 @@ const server = http.createServer((req, res) => {
     // get method
     const method = parsedUrl.method;
     
-    res.setHeader('Content Type', 'text/html');
+    // res.setHeader('Content Type', 'text/html');
     res.end("Hello World");
 });
 
